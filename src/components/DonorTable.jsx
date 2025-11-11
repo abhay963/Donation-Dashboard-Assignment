@@ -16,9 +16,9 @@ const DonorTable = ({ data = [] }) => {
       <table className="w-full border-collapse">
         <thead>
           <tr className="bg-pink-100 text-left">
-            <th className="p-3">Name</th>
-            <th className="p-3">Amount</th>
-            <th className="p-3">Date</th>
+            <th className="p-2 md:p-3">Name</th>
+            <th className="p-2 md:p-3">Amount</th>
+            <th className="p-2 md:p-3">Date</th>
           </tr>
         </thead>
 
@@ -26,16 +26,16 @@ const DonorTable = ({ data = [] }) => {
           {data.length > 0 ? (
             data.map((donor, index) => (
               <tr key={index} className="border-b hover:bg-pink-50 transition">
-                <td className="p-3">{donor.name}</td>
-                <td className="p-3 text-pink-600 font-semibold">
+                <td className="p-2 md:p-3">{donor.name}</td>
+                <td className="p-2 md:p-3 text-pink-600 font-semibold">
                   ₹{donor.amount}
                 </td>
-                <td className="p-3 text-gray-600">{donor.date}</td>
+                <td className="p-2 md:p-3 text-gray-600">{donor.date}</td>
               </tr>
             ))
           ) : (
             <tr>
-              <td colSpan="3" className="text-center p-4 text-gray-500">
+              <td colSpan="3" className="text-center p-2 md:p-4 text-gray-500">
                 No donors yet 💸
               </td>
             </tr>
