@@ -1,16 +1,36 @@
-# React + Vite
+# 🩵 Donation Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Donation Dashboard** built using **React + Vite**, designed as part of my **internship assignment**.  
+It provides a clean and interactive interface to view and track donations for social or charitable causes.
 
-Currently, two official plugins are available:
+## 🧠 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The dashboard allows users to visualize donation data, recent donors, and contribution statistics in real time.  
+It focuses on building a professional, responsive UI using **Tailwind CSS** and **modern frontend tools**.
 
-## React Compiler
+## ⚡ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Vite** – Fast build tool and dev server  
+- **React** – Frontend framework for UI components  
+- **Tailwind CSS** – Utility-first CSS framework for responsive styling  
+- **Recharts / Chart.js** *(optional)* – For data visualization  
+- **Lucide React** – For icons and dashboard visuals  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Setup Instructions
+
+To run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/abhay963/Donation-Dashboard-Assignment.git
+
+# Navigate to the folder
+cd Donation-Dashboard-Assignment
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
