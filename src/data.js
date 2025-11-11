@@ -1,4 +1,4 @@
-export const donation=[
+export const donations=[
     {name:"Abhay",amount:500,date:"2025-11-01"},
     {name:"Aditi",amount:700,date:"2025-11-20"},
     {name:"Aman",amount:200,date:"2025-11-23"},
